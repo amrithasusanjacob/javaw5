@@ -18,7 +18,9 @@ public class prog1 {
 		   System.out.println("Enter the mark"+i+":");
 		    m=m+obj.nextInt();
 		}
+		System.out.println("The total marks"+m);
 		double avg = m/5.0;
+		System.out.println("The avg marks"+avg);
 		if((avg>=90)&&(avg<101))
 		{
 		           return "A";
